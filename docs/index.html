@@ -683,5 +683,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+51981224502", // WhatsApp number
+
+            company_logo_url: "//htxremisse.com/wp-content/uploads/2016/06/logo.png", // URL of company logo (png, jpg, gif)
+            greeting_message: "\nHola, ¿cómo podemos ayudarte? Simplemente envíenos un mensaje y con gusto te ayudaremos.", // Text of greeting message
+
+            call_to_action: "Pregunta sin miedo", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 </html>
