@@ -1325,17 +1325,17 @@ a.a2:hover {
 }
 /*--//placeholder-color--*/
 /*--copy-right--*/
-.copi {
+.copy {
     text-align: center;
 }
-.copi p {
+.copy p {
     color: #fff;
     font-size: 14px;
     letter-spacing: 2px;
     padding: 20px 20px;
     background: #1e2223;
 }
-.copi p a {
+.copy p a {
     color: #ff304d;
     text-decoration: none;
 	transition: 0.5s all;
